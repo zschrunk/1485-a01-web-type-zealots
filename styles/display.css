@@ -2,21 +2,24 @@
 /* CSS Document */
 
 body{
-	background-color: #FFE39F;
+	background-color: #989898;
 }
 h1 {
 	font-family: Helvetica, sans-serif;
 	font-size: x-large;
 	font-weight: bold;
 	font: 60px 'Helvetica';
-	color: #108F97;
+	color: #020D7C;
+	margin-bottom: 0%;
 }
 p {
 	font-family: Georgia, serif;
 }
 h2{
 	font-family: Helvetica, sans-serif;
-	color: #108F97;
+	color: #020D7C;
+	line-height: 50px;
+	clear: left;
 }
 .content{
 	width: 50%;
@@ -25,6 +28,7 @@ h2{
 	margin:0 auto;
   	max-width:750px;
   	min-width:400px;
+	line-height: 140%;
 }
 .nav{
 	width: 50%;
@@ -51,4 +55,26 @@ footer{
 }
 .center{
 	text-align: center;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 20px 0;
+	line-height: 50px;
+}
+nav li{
+	float: left;
+	margin-right: 20px;
+}
+a:link{
+	text-decoration: none;
+	color: #CDD71D;
+}
+a:visited{
+	text-decoration: none;
+	color: #CDD71D;
+}
+a:hover{
+}
+a:active{
 }
